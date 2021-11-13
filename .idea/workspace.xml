@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2d2710-0b31-42cb-a462-9bf5d810d317" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cracking_the_code/Cracking the Coding Interview 189 Programming Questions and Solutions by Gayle Laakmann McDowell (z-lib.org).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_001_sparse_arrays/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_001_sparse_arrays/ResultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_001_sparse_arrays/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_001_sparse_arrays/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_002_crush/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_002_crush/ResultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_002_crush/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/medium/_002_crush/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programming_manual/Programming Challenges The Programming Contest Training Manual by Steven S. Skiena, Miguel Revilla (z-lib.org).pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/ResultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/ResultTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,7 @@
       <recent name="data_structure.easy._002_2darray" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResultTest.test_1 (2)">
+  <component name="RunManager" selected="JUnit.ResultTest.test_1 (3)">
     <configuration name="ResultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="programming2" />
       <extension name="coverage">
@@ -124,17 +118,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultTest.test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResultTest.test_1 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="programming2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="data_structure.hard._002_crush.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.ResultTest" />
+      <option name="PACKAGE_NAME" value="data_structure.hard._002_crush" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.hard._002_crush.ResultTest" />
       <option name="METHOD_NAME" value="test_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultTest.test_simple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programming2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_structure.hard._002_crush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data_structure.hard._002_crush" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.hard._002_crush.ResultTest" />
+      <option name="METHOD_NAME" value="test_simple" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,10 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ResultTest.test_1 (3)" />
+        <item itemvalue="JUnit.ResultTest.test_simple" />
         <item itemvalue="JUnit.ResultTest.test_1 (2)" />
         <item itemvalue="JUnit.ResultTest.test_1 (1)" />
         <item itemvalue="JUnit.ResultTest" />
-        <item itemvalue="JUnit.ResultTest.test_1" />
       </list>
     </recent_temporary>
   </component>

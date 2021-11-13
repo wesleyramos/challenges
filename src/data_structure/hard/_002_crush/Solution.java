@@ -5,10 +5,11 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 public class Solution {
@@ -16,39 +17,32 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        int stringsCount = Integer.parseInt(bufferedReader.readLine().trim());
+        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
-        List<String> strings = IntStream.range(0, stringsCount).mapToObj(i -> {
-                    try {
-                        return bufferedReader.readLine();
-                    } catch (IOException ex) {
-                        throw new RuntimeException(ex);
-                    }
-                })
-                .collect(toList());
+        int n = Integer.parseInt(firstMultipleInput[0]);
 
-        int queriesCount = Integer.parseInt(bufferedReader.readLine().trim());
+        int m = Integer.parseInt(firstMultipleInput[1]);
 
-        List<String> queries = IntStream.range(0, queriesCount).mapToObj(i -> {
-                    try {
-                        return bufferedReader.readLine();
-                    } catch (IOException ex) {
-                        throw new RuntimeException(ex);
-                    }
-                })
-                .collect(toList());
+        List<List<Integer>> queries = new ArrayList<>();
 
-        List<Integer> res = Result.matchingStrings(strings, queries);
+        IntStream.range(0, m).forEach(i -> {
+            try {
+                queries.add(
+                        Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+                                .map(Integer::parseInt)
+                                .collect(toList())
+                );
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        });
 
-        bufferedWriter.write(
-                res.stream()
-                        .map(Object::toString)
-                        .collect(joining("\n"))
-                        + "\n"
-        );
+        long result = Result.arrayManipulation(n, queries);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
 
         bufferedReader.close();
         bufferedWriter.close();
     }
 }
-
