@@ -17,11 +17,10 @@ class Result {
             array[end] -= value;
 
         }
-        int bigger = 0;
-
+        long bigger = 0;
+        long sum = 0;
         for(int i = 0; i < array.length - 1; i++) {
-            int sum = array[i] + array[i+1];
-            array[i+1] += array[i];
+            sum += array[i];
             if(sum > bigger) {
                 bigger = sum;
             }
