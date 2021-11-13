@@ -1,0 +1,19 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8Å³µ´Ñ/
+g	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8Ç³µ´Ñ/
+0
+java:S2096"Remove this throws clause.(œû¿Ø
+k
+java:S1941"IMove the declaration of "bufferedWriter" closer to the code that uses it.(ğ¢Å–şÿÿÿÿ8Ä’µ´Ñ/
+_
+java:S1941"BMove the declaration of "strings" closer to the code that uses it.(³¢Û8Å’µ´Ñ/
+V
+java:S1943"@Remove this use of constructor "InputStreamReader(InputStream)".(ÌøÎî
+O
+java:S1943"4Remove this use of constructor "FileWriter(String)".(ğ¢Å–şÿÿÿÿ
+4
+java:S2211"Specify a type for: 'i'(³¢Û8Ë’µ´Ñ/
+9
+java:S2211 "Specify a type for: 'i'(ç»ŠÕÿÿÿÿÿ8Í’µ´Ñ/
+n
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ğ¢Å–şÿÿÿÿ8îÄµ´Ñ/

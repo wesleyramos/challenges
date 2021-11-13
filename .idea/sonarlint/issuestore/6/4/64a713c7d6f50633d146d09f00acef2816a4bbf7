@@ -1,0 +1,22 @@
+
+J
+java:S2208".Explicitly import the specific classes needed.(¬›ãD8Ù„Ø²Ñ/
+K
+java:S2208".Explicitly import the specific classes needed.(Î€ŒÙ8Ú„Ø²Ñ/
+P
+java:S2208".Explicitly import the specific classes needed.(§æÐçøÿÿÿÿ8Û„Ø²Ñ/
+^
+java:S1854"<Remove this useless assignment to local variable "arrCount".(¹á÷Üúÿÿÿÿ8à„Ø²Ñ/
+7
+java:S2096
+"Remove this throws clause.(œû¿Ø8á„Ø²Ñ/
+]
+java:S1943"@Remove this use of constructor "InputStreamReader(InputStream)".(ÌøÎî8ä„Ø²Ñ/
+V
+java:S1943"4Remove this use of constructor "FileWriter(String)".(ð¢Å–þÿÿÿÿ8æ„Ø²Ñ/
+O
+java:S1481"-Remove this unused "arrCount" local variable.(¹á÷Üúÿÿÿÿ8è„Ø²Ñ/
+P
+java:S4248"3Refactor this code to use a "static final" Pattern.(ì±‚¯8ê„Ø²Ñ/
+n
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ð¢Å–þÿÿÿÿ8ú„Ø²Ñ/

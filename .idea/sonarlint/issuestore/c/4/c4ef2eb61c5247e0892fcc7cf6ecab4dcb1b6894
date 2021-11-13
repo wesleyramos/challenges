@@ -1,0 +1,7 @@
+
+n	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ÎÜ­‡8öìù²Ñ/
+n	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ÎÜ­‡8ã„ú²Ñ/
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œËãÿ
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£õ®ˆşÿÿÿÿ8º¶ù²Ñ/
+@
+java:S5960"+Remove this assertion from production code.(ØÃÇz
