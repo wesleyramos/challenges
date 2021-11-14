@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2d2710-0b31-42cb-a462-9bf5d810d317" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/hard/_002_crush/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +43,23 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/programming_manual" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms/easy/warmup/a_very_big_sum" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithms/easy/warmup/a_very_big_sum" />
       <recent name="$PROJECT_DIR$/src/programming_manual" />
       <recent name="$PROJECT_DIR$/src/cracking_the_code" />
       <recent name="$PROJECT_DIR$/src/data_structure/medium/_002_crush" />
       <recent name="$PROJECT_DIR$/src/data_structure/medium" />
-      <recent name="$PROJECT_DIR$/src/data_structure/medium/001sparse-arrays" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithms/easy/warmup/_0001_a_very_big_sum" />
+      <recent name="$PROJECT_DIR$/src/algorithms/easy/warmup/_0001_a_very_big_sum/_001_arrayds" />
       <recent name="$PROJECT_DIR$/src/easy/arrayds" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -67,7 +69,7 @@
       <recent name="data_structure.easy._002_2darray" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResultTest (1)">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="ResultTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="programming2" />
       <extension name="coverage">
@@ -79,22 +81,6 @@
       <option name="PACKAGE_NAME" value="data_structure.hard._002_crush" />
       <option name="MAIN_CLASS_NAME" value="data_structure.hard._002_crush.ResultTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResultTest.test_1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="programming2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_structure.easy._002_2darray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data_structure.easy._002_2darray" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.easy._002_2darray.ResultTest" />
-      <option name="METHOD_NAME" value="test_1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,13 +133,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programming2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.easy.warmup._0001_a_very_big_sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.easy.warmup._0001_a_very_big_sum" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.easy.warmup._0001_a_very_big_sum.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.ResultTest (1)" />
         <item itemvalue="JUnit.ResultTest.test_simple" />
         <item itemvalue="JUnit.ResultTest.test_1 (3)" />
         <item itemvalue="JUnit.ResultTest.test_1 (2)" />
-        <item itemvalue="JUnit.ResultTest.test_1 (1)" />
       </list>
     </recent_temporary>
   </component>
