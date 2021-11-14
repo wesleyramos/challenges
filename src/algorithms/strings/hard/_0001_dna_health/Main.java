@@ -27,20 +27,31 @@ public class Main {
         int s = Integer.parseInt(bufferedReader.readLine().trim());
         int bad = 0;
         int good = 0;
-        for (int i = 0; i < s; i++) {
+        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
-            String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+        int first = Integer.parseInt(firstMultipleInput[0]);
 
-            int first = Integer.parseInt(firstMultipleInput[0]);
+        int last = Integer.parseInt(firstMultipleInput[1]);
 
-            int last = Integer.parseInt(firstMultipleInput[1]);
+        String d = firstMultipleInput[2];
+        int firstValue = calc(getGenes(genes, first, last), getHealth(health, first, last), d);
+        bad = firstValue;
+        good = firstValue;
+        for (int i = 1; i < s; i++) {
 
-            String d = firstMultipleInput[2];
+            firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+
+            first = Integer.parseInt(firstMultipleInput[0]);
+
+            last = Integer.parseInt(firstMultipleInput[1]);
+
+            d = firstMultipleInput[2];
 
 
-            int calc = calc(getGenes(genes, first, last), getHealth(health, first, last), d);
-            bad = Math.min(calc, bad);
-            good = Math.max(calc, good);
+            int value = calc(getGenes(genes, first, last), getHealth(health, first, last), d);
+
+            bad = Math.min(value, bad);
+            good = Math.max(value, good);
         }
         System.out.println(bad + " " + good);
 

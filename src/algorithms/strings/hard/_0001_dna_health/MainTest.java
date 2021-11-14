@@ -35,9 +35,10 @@ public class MainTest {
 
     @Test
     public void test_simple() {
-        assertEquals(19, Main.calc(Arrays.asList("b", "c", "aa", "d", "b"), Arrays.asList(2, 3, 4, 5, 6), "caaab"));
-        assertEquals(0, Main.calc(Arrays.asList("a", "b", "c", "aa", "d"), Arrays.asList(1, 2, 3, 4, 5), "xyz"));
-        assertEquals(11, Main.calc(Arrays.asList("c", "aa", "d"), Arrays.asList(3, 4, 5), "bcdybc"));
+//        assertEquals(19, Main.calc(Arrays.asList("b", "c", "aa", "d", "b"), Arrays.asList(2, 3, 4, 5, 6), "caaab"));
+        assertEquals(34, Main.calc(Arrays.asList("b", "c", "aa", "a", "b"), Arrays.asList(2, 3, 4, 5, 6), "caaab"));
+//        assertEquals(0, Main.calc(Arrays.asList("a", "b", "c", "aa", "d"), Arrays.asList(1, 2, 3, 4, 5), "xyz"));
+//        assertEquals(11, Main.calc(Arrays.asList("c", "aa", "d"), Arrays.asList(3, 4, 5), "bcdybc"));
     }
 
 }
