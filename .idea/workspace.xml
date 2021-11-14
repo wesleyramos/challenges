@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2d2710-0b31-42cb-a462-9bf5d810d317" name="Changes" comment="" />
+    <list default="true" id="7f2d2710-0b31-42cb-a462-9bf5d810d317" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/hard/_0001_dna_health/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/hard/_0001_dna_health/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/hard/_0001_dna_health/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/hard/_0001_dna_health/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,16 +46,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms/medium/implementation/_0002_magic_square" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms/strings/hard/0001_dna_health" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithms/strings/hard/0001_dna_health" />
       <recent name="$PROJECT_DIR$/src/algorithms/medium/implementation/_0002_magic_square" />
       <recent name="$PROJECT_DIR$/src/algorithms/easy/warmup/a_very_big_sum" />
       <recent name="$PROJECT_DIR$/src/programming_manual" />
       <recent name="$PROJECT_DIR$/src/cracking_the_code" />
-      <recent name="$PROJECT_DIR$/src/data_structure/medium/_002_crush" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -67,65 +72,64 @@
       <recent name="data_structure.easy._002_2darray" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.test_simple">
-    <configuration name="ResultTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SolutionTest.test_simple (1)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.hard.Main" />
       <module name="programming2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_structure.hard._002_crush.*" />
+          <option name="PATTERN" value="algorithms.strings.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data_structure.hard._002_crush" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.hard._002_crush.ResultTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultTest.test_1 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="programming2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_structure.hard._002_crush.*" />
+          <option name="PATTERN" value="algorithms.strings.hard._0001_dna_health.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data_structure.hard._002_crush" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.hard._002_crush.ResultTest" />
-      <option name="METHOD_NAME" value="test_1" />
+      <option name="PACKAGE_NAME" value="algorithms.strings.hard._0001_dna_health" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.hard._0001_dna_health.SolutionTest" />
+      <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultTest.test_simple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="programming2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_structure.hard._002_crush.*" />
+          <option name="PATTERN" value="algorithms.strings.hard._0001_dna_health.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data_structure.hard._002_crush" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.hard._002_crush.ResultTest" />
+      <option name="PACKAGE_NAME" value="algorithms.strings.hard._0001_dna_health" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.hard._0001_dna_health.SolutionTest" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.test_simple (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programming2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.hard._0001_dna_health.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings.hard._0001_dna_health" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.hard._0001_dna_health.SolutionTest" />
       <option name="METHOD_NAME" value="test_simple" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="programming2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.easy.warmup._0001_a_very_big_sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.easy.warmup._0001_a_very_big_sum" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.easy.warmup._0001_a_very_big_sum.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.test_simple (1)" />
+        <item itemvalue="JUnit.SolutionTest.testCount" />
+        <item itemvalue="JUnit.SolutionTest.testGet" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SolutionTest.test_simple" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.ResultTest (1)" />
-        <item itemvalue="JUnit.ResultTest.test_simple" />
-        <item itemvalue="JUnit.ResultTest.test_1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +181,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,6 +190,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/easy/_002_2darray/Result.java</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/strings/hard/_0001_dna_health/Solution.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
