@@ -17,3 +17,15 @@ d
 0src/data_structure/easy/_002_2darray/Result.java,c/f/cf8c7d7e7a66e114a40cfdf0b0e5e9ca65208841
 j
 :src/data_structure/medium/_001_sparse_arrays/Solution.java,5/8/5874a31bb26d47ab7b7f4ce26d7646b21ea4cadd
+\
+,src/data_structure/hard/_002_crush/readme.md,d/3/d362f92fe93d768316fc3f93429587951cceaa04
+b
+2src/data_structure/hard/_002_crush/ResultTest.java,3/b/3bcd14fcc750258ff7e492d4c8070cb382178bcb
+`
+0src/data_structure/hard/_002_crush/Solution.java,3/9/39cfcde22e342f7b647420efd33b26ff23a4f6d8
+^
+.src/data_structure/hard/_002_crush/Result.java,4/2/42685d8de6f3508f895f47967ab67cfe46cb58d5
+i
+9src/algorithms/easy/warmup/_0001_a_very_big_sum/readme.md,5/0/50ffc28f34c007af65b113436e14138c4feb63d6
+q
+Asrc/algorithms/easy/warmup/_0001_a_very_big_sum/SolutionTest.java,3/8/3808da4d14d78be2100dcc726d6b99570a1c71db

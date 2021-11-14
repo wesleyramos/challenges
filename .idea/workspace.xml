@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2d2710-0b31-42cb-a462-9bf5d810d317" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/medium/implementation/_0002_magic_square/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/medium/implementation/_0002_magic_square/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/medium/implementation/_0002_magic_square/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/medium/implementation/_0002_magic_square/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="7f2d2710-0b31-42cb-a462-9bf5d810d317" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +166,17 @@
       <updated>1636757122040</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
