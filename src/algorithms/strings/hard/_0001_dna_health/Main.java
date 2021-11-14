@@ -25,7 +25,6 @@ public class Main {
                 .collect(toList());
 
         int s = Integer.parseInt(bufferedReader.readLine().trim());
-//        System.out.printf("s: " + s);
         int bad = 0;
         int good = 0;
         for (int i = 0; i < s; i++) {
@@ -43,26 +42,6 @@ public class Main {
             bad = Math.min(calc, bad);
             good = Math.max(calc, good);
         }
-//        IntStream.range(0, s).forEach(sItr -> {
-//            try {
-//                String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
-//
-//                int first = Integer.parseInt(firstMultipleInput[0]);
-//
-//                int last = Integer.parseInt(firstMultipleInput[1]);
-//
-//                String d = firstMultipleInput[2];
-//
-//
-//                int calc = Solution.calc(getGenes(genes, first, last), getHealth(health, first, last), d);
-//                bad = Math.min(calc, bad);
-//                good = Math.max(calc, good);
-//            } catch (IOException ex) {
-//                throw new RuntimeException(ex);
-//            }
-//
-//
-//        });
         System.out.println(bad + " " + good);
 
         bufferedReader.close();
@@ -87,14 +66,11 @@ public class Main {
                 int value = countSubString(d, gen);
                 sum += value * healthValue;
                 alreadyCount.put(gen, value);
-//                System.out.println(gen + " aparece: " + value);
-
             } else {
                 int value = integer;
                 sum += value * healthValue;
-//                System.out.println(gen + " ja existe" + value);
             }
-//            System.out.println("Sum: " + sum);
+
         }
 
         return sum;
@@ -104,23 +80,8 @@ public class Main {
         int first = 0;
         int last = s.length();
         int count = 0;
-//        do {
-//            System.out.println(first);
-//            System.out.println(last);
-//
-//            System.out.println("s: " + s + ", test: " + d.substring(first, last) + ".");
-//            if (s.equals(d.substring(first, last))) {
-//                count++;
-//            }
-//            first++;
-//            last++;
-//        } while (d.length() - 1 < last);
 
         while (d.length() >= last) {
-//            System.out.println(first);
-//            System.out.println(last);
-//
-//            System.out.println("s: " + s + ", test: " + d.substring(first, last) + ".");
             if (s.equals(d.substring(first, last))) {
                 count++;
             }
