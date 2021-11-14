@@ -36,8 +36,8 @@ public class SolutionTest {
     @Test
     public void test_simple() {
         assertEquals(19, Solution.calc(Arrays.asList("b", "c", "aa", "d", "b"), Arrays.asList(2, 3, 4, 5, 6), "caaab"));
-//        assertEquals(0, Solution.calc(Arrays.asList("a", "b", "c", "aa", "d"), Arrays.asList(1, 2, 3, 4, 5), "xyz"));
-//        assertEquals(11, Solution.calc(Arrays.asList("c", "aa", "d"), Arrays.asList(3, 4, 5), "bcdybc"));
+        assertEquals(0, Solution.calc(Arrays.asList("a", "b", "c", "aa", "d"), Arrays.asList(1, 2, 3, 4, 5), "xyz"));
+        assertEquals(11, Solution.calc(Arrays.asList("c", "aa", "d"), Arrays.asList(3, 4, 5), "bcdybc"));
     }
 
 }
