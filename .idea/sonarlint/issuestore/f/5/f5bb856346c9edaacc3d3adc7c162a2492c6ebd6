@@ -1,23 +1,0 @@
-
-g	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ÕàÑ¯
-g	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ÕàÑ¯
-g	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ÕàÑ¯
-l	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(”€Áøÿÿÿÿ
-l	java:S109"RAssign this magic number 4 to a well-named constant, and use the constant instead.(”€Áøÿÿÿÿ
-l	java:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(”€Áøÿÿÿÿ
-l	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(”€Áøÿÿÿÿ
-g	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(æşæ¥
-g	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(æşæ¥
-g	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(æşæ¥
-g	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(æşæ¥
-g	java:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(æşæ¥
-g	java:S109"RAssign this magic number 8 to a well-named constant, and use the constant instead.(Çã“ü
-g	java:S109"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Çã“ü
-g	java:S109"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Çã“ü
-n	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(°­‹‰8ş³Ñ/
-s	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(®—””ùÿÿÿÿ8½ş³Ñ/
-s	java:S109"RAssign this magic number 4 to a well-named constant, and use the constant instead.(®—””ùÿÿÿÿ8½ş³Ñ/
-h	java:S109"SAssign this magic number 28 to a well-named constant, and use the constant instead.(°ÑêÛ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œËãÿ
-A
-java:S5960"+Remove this assertion from production code.(°ÑêÛ

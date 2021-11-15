@@ -20,17 +20,29 @@ public class MainTest {
 
     @Test
     public void testCount() {
-        assertEquals(1, Main.countSubString("a", "a"));
-        assertEquals(1, Main.countSubString("abc", "a"));
-        assertEquals(1, Main.countSubString("abc", "c"));
-        assertEquals(1, Main.countSubString("abc", "ab"));
-        assertEquals(1, Main.countSubString("abc", "bc"));
-        assertEquals(2, Main.countSubString("aac", "a"));
-        assertEquals(2, Main.countSubString("aaa", "aa"));
-        assertEquals(1, Main.countSubString("caa", "aa"));
-        assertEquals(2, Main.countSubString("ada", "a"));
-        assertEquals(1, Main.countSubString("aaabcaa", "abc"));
-        assertEquals(3, Main.countSubString("abbababcaa", "ab"));
+        assertEquals(1, Main.countSubStringNaive("a", "a"));
+        assertEquals(1, Main.countSubStringNaive("abc", "a"));
+        assertEquals(1, Main.countSubStringNaive("abc", "c"));
+        assertEquals(1, Main.countSubStringNaive("abc", "ab"));
+        assertEquals(1, Main.countSubStringNaive("abc", "bc"));
+        assertEquals(2, Main.countSubStringNaive("aac", "a"));
+        assertEquals(2, Main.countSubStringNaive("aaa", "aa"));
+        assertEquals(1, Main.countSubStringNaive("caa", "aa"));
+        assertEquals(2, Main.countSubStringNaive("ada", "a"));
+        assertEquals(1, Main.countSubStringNaive("aaabcaa", "abc"));
+        assertEquals(3, Main.countSubStringNaive("abbababcaa", "ab"));
+
+        assertEquals(1, Main.countSubStringKMP("a", "a"));
+        assertEquals(1, Main.countSubStringKMP("a", "abc"));
+        assertEquals(1, Main.countSubStringKMP("c", "abc"));
+        assertEquals(1, Main.countSubStringKMP("ab", "abc"));
+        assertEquals(1, Main.countSubStringKMP("bc", "abc"));
+        assertEquals(2, Main.countSubStringKMP("a", "aac"));
+        assertEquals(2, Main.countSubStringKMP("aa", "aaa"));
+        assertEquals(1, Main.countSubStringKMP("aa", "caa"));
+        assertEquals(2, Main.countSubStringKMP("a", "ada"));
+        assertEquals(1, Main.countSubStringKMP("abc", "aaabcaa"));
+        assertEquals(3, Main.countSubStringKMP("ab", "abbababcaa"));
     }
 
     @Test
