@@ -29,3 +29,17 @@ i
 9src/algorithms/easy/warmup/_0001_a_very_big_sum/readme.md,5/0/50ffc28f34c007af65b113436e14138c4feb63d6
 q
 Asrc/algorithms/easy/warmup/_0001_a_very_big_sum/SolutionTest.java,3/8/3808da4d14d78be2100dcc726d6b99570a1c71db
+m
+=src/algorithms/easy/warmup/_0001_a_very_big_sum/Solution.java,b/7/b7547f345f823047503bf60fc972dcd542e8d6dd
+u
+Esrc/algorithms/medium/implementation/_0002_magic_square/Solution.java,8/1/813a7f266d0d06bfb02782a5b6356c60fb41a29b
+y
+Isrc/algorithms/medium/implementation/_0002_magic_square/SolutionTest.java,0/9/0948be850e1628463b00a0c1bcd2e8387024d577
+q
+Asrc/algorithms/medium/implementation/_0002_magic_square/readme.md,d/c/dc6eb585e75514c0e255218aaa1e2f56bdcbb338
+i
+9src/algorithms/easy/warmup/_0001_a_very_big_sum/Main.java,2/a/2a038c25a7090c5922d9ed7cca8f7c7c1d445c9c
+f
+6src/algorithms/strings/hard/_0001_dna_health/readme.md,a/0/a0c4e510d33b462ae2771870e8e260915fa52510
+q
+Asrc/algorithms/medium/implementation/_0002_magic_square/Main.java,1/7/17580a3169431cb3bbbe01b81fb4dc5e092f84af
